@@ -1,0 +1,21 @@
+#loader {
+  height: auto;
+  width: 40vw;
+  border-radius: 10px;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  margin-top: 5vw;
+}
+
+.content {
+  display: none;
+}
+
+#parralax {
+  height: 20%;
+  width: 30vw;
+  border-radius: 10px;
+  margin-left: 35vw;
+  margin-right: 35vw;
+  margin-top: 1%;
+}
