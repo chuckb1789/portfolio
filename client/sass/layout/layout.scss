@@ -1,0 +1,48 @@
+.container-main {
+  .container-top {
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    background-color: lightgray;
+    .container-header {
+      flex: 0 0 auto;
+      height: 50px;
+      width: 100%;
+    //   position: fixed;
+      background-color: inherit;
+
+      @include breakpoint($bp-768) {
+        flex: 0 0 12%;
+        // height: 50vh;
+        justify-content: stretch;
+      }
+
+      .container-menu {
+        height: 12%;
+        padding: 15px 0;
+        width: 100%;
+
+        @include breakpoint($bp-768) {
+          height: auto;
+          width: 100vw;
+        }
+      }
+    }
+
+    .container-body {
+      flex: 0 0 auto;
+
+      @include breakpoint($bp-768) {
+        flex: 1 0 auto;
+        /*height: 93vh;*/
+        /* setting the hieght causes body to overlap the footer making the links non-funcitonal */
+        overflow-y: scroll;
+      }
+    }
+  }
+
+  .container-footer {
+    flex: 0 0 5vh;
+    background-color: #b99967;
+  }
+}

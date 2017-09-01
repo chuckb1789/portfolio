@@ -1,0 +1,48 @@
+@charset "UTF-8";
+
+@import 'vars';
+
+@import 'mixins';
+
+@import 'typography';
+
+@import 'layout/layout';
+@import 'layout/body';
+@import 'layout/footer';
+
+@import 'pages/about';
+@import 'pages/projects';
+@import 'pages/home';
+
+@import 'widgets/menubar';
+@import 'widgets/menubutton';
+@import 'widgets/parallaxJumbotron';
+
+@import '../../node_modules/font-awesome/scss/font-awesome.scss';
+
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+image {
+  width: 100%;
+}
+
+#loader {
+  height: auto;
+  width: 40vw;
+  border-radius: 10px;
+  margin-left: 30vw;
+  margin-right: 30vw;
+  margin-top: 5vw;
+}
+
+.content {
+  display: none;
+}

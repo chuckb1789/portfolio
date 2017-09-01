@@ -1,0 +1,52 @@
+.projects-section{
+    margin-top: 100px;
+
+.projects-component {
+  width: 90%;
+  margin: 0 auto;
+  font-family: yantramanav;
+  font-size: 1.8em;
+  font-weight: 100;
+  align-items: center;
+  p {
+    margin: 0;
+    margin-top: 0.2em;
+  }
+  .project-logo {
+      vertical-align: center;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .projects {
+    margin-left: auto;
+    margin-right: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-bottom: 100px;
+
+    img,
+    div {
+      width: 45%;
+      height: 20%;
+      margin: 0;
+      border-radius: 10px;
+    }
+
+    p {
+      width: 100%;
+    }
+
+    .projects-name {
+      letter-spacing: 1px;
+      font-size: 2.3em;
+    }
+
+    .description {
+      font-size: 1.5em;
+      font-style: italic;
+      font-weight: 300;
+    }
+  }
+ }
+}
