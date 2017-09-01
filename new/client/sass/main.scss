@@ -1,0 +1,42 @@
+@charset "UTF-8";
+
+@import 'vars';
+
+@import 'mixins';
+
+@import 'typography';
+
+@import 'layout/layout';
+@import 'layout/body';
+@import 'layout/footer';
+
+@import 'pages/about';
+@import 'pages/products';
+@import 'pages/find';
+@import 'pages/home';
+@import 'pages/social';
+@import 'pages/shoppingCart';
+@import 'pages/store';
+@import 'pages/taproom';
+@import 'pages/kombucha';
+
+@import 'widgets/calendar';
+@import 'widgets/menubar';
+@import 'widgets/menubutton';
+@import 'widgets/parallaxJumbotron';
+
+@import '../../node_modules/font-awesome/scss/font-awesome.scss';
+
+
+body {
+  margin: 0;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+
+image {
+  width: 100%;
+}

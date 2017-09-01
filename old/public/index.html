@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html ng-app="beckApp">
+
+<head>
+    <title>Charlie Beck</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/angular.js/1.5.8/angular-route.js"></script>
+    <script src="./js/module.portfolio.js"></script>
+    <script src="./js/controller.portfolio.js"></script>
+    <!-- <script src="/js/factory.bc.js"></script> -->
+    <link rel="stylesheet" href="./css/bootstrap.css">
+    <link rel='stylesheet' href='./css/main.css'>
+    <link href="https://fonts.googleapis.com/css?family=Roboto" rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/twitter-bootstrap/3.3.7/css/bootstrap.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.min.js" integrity="sha256-hwg4gsxgFZhOsEEamdOYGBf13FyQuiTwlAQgxVSNgt4=" crossorigin="anonymous"> </script>
+    <link rel="apple-touch-icon" sizes="57x57" href="/images/favicon/apple-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/images/favicon/apple-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/images/favicon/apple-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/images/favicon/apple-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/images/favicon/apple-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/images/favicon/apple-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/images/favicon/apple-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/images/favicon/apple-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/images/favicon/apple-icon-180x180.png">
+    <link rel="icon" type="image/png" sizes="192x192"  href="/images/favicon/android-icon-192x192.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/images/favicon/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="96x96" href="/images/favicon/favicon-96x96.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/images/favicon/favicon-16x16.png">
+    <link rel="manifest" href="/images/favicon/manifest.json">
+    <meta name="msapplication-TileColor" content="#ffffff">
+    <meta name="msapplication-TileImage" content="/images/favicon/ms-icon-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+</head>
+<body>
+  <div class="preload">
+    <img id='loader' src="./images/desert.png">
+  </div>
+  <div class="content">
+    <div id='bodyBackground'>
+      <ng-view ngController="portfolioController as portfolio">
+       <!--partials go here!-->
+     </ng-view>
+  <script type="text/javascript" src="./js/portfolioPage.js"></script>
+  <footer id="footer">
+    <div id='footerDiv'>
+          <div id="footerText">Powered by adventure, curiousity, and the golden rule.</div>
+          <img id='socialMedia' src='./images/facebook.png'/>
+          <img id='socialMedia' src='./images/twitter.png'/>
+          <img id='socialMedia' src='./images/linkedin.png'/>
+          <img id='socialMedia' src='./images/instagram.png'/>
+          <img id='socialMedia' src='./images/github.png'/>
+    </div>
+  </footer>
+ </div>
+</div>
+</body>
+</html>
